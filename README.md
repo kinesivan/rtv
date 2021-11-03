@@ -15,7 +15,7 @@ The vote is in two parts, the gamemode and the maps associated with that gamemod
 
 # ULX Commands
 
-This addon has two commands:
+This add-on has two commands:
 
 - `rtv`
 	- Any user can use this command to request a vote to start
@@ -24,7 +24,7 @@ This addon has two commands:
 
 # Requirements
 
-This addon requires ULX and Ulib to function.
+This add-on requires ULX and Ulib to function.
 
 ### Workshop Links:
 
@@ -33,9 +33,9 @@ This addon requires ULX and Ulib to function.
 
 # Configuration
 
-Its recommended to start the server up with this addon installed first. This will create the default configuration file. You can also create the file, just make sure its the correct name.
+It's recommended to start the server with this add-on installed first. This will create the default configuration file. You can also pre-create it, but make sure that the path and filename are correct.
 
-Config file can be found in the game's files in the path, (`garrysmod\data\rtv\config.json`)
+Config file can be found in the game's files at `garrysmod\data\rtv\config.json`
 
 ## Example Config
 
@@ -64,7 +64,7 @@ Config file can be found in the game's files in the path, (`garrysmod\data\rtv\c
 ]
 ```
 
-**Note:** Both maps and prefix are optional fields, but one is required to give user options to vote on. Both can be entered (as shown above) and will be combined for all the choices for the user.
+**Note:** Both `maps` and `prefix` are optional fields, however, one is required to give the user options to vote on. Both can be filled (as shown above) and will be combined for all the choices for the user.
 
 ### name
 
@@ -76,11 +76,11 @@ Config file can be found in the game's files in the path, (`garrysmod\data\rtv\c
 
 ### maps
 
-- List of maps to vote on. Make sure to separate the maps with a comma.
+- List of maps to vote on. Entries should be comma separated.
 
 ### prefix
 
-- This field supports multiple prefixes (separated by a comma). For each prefix, this addon will add all maps matching that prefix. For example, in the configuration above for sandbox gamemode. The prefix is `gm_`, so this will add `gm_flatgrass` and `gm_sandbox` for maps to decide on.
+- This field supports multiple prefixes (separated by a comma). For each prefix, this add-on will add all maps matching that prefix. For example, in the configuration above for sandbox gamemode. The prefix is `gm_`, so this will add `gm_flatgrass` and `gm_sandbox` for maps to decide on.
 
 
 ## ConVars
